@@ -1,0 +1,4224 @@
+{
+    "$id": 0,
+    "$type": "0|ALO.Entities.AI.CommandAIData, Assembly-CSharp",
+    "id": "mod-101-ai-9a72dbef2c06a1f4089e9ea092d49675",
+    "name": "Kontaalen",
+    "presets": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[ALO.Entities.AI.CommandAIPreset, Assembly-CSharp]], mscorlib",
+        "$rlength": 6,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|ALO.Entities.AI.CommandAIPreset, Assembly-CSharp",
+                "name": "Steady Fleetmarshal",
+                "guid": {
+                    "$type": "3|GuidStruct, Assembly-CSharp",
+                    "LowBits": -3936355942764835313,
+                    "HighBits": 2084693107492834761
+                },
+                "aIType": 0,
+                "timeBetweenActions": 0,
+                "spiralRandomRadius": 6,
+                "spiralThreatPositioningRadius": 10,
+                "matterStorageID": 1012024,
+                "energyStorageID": 1012025,
+                "logisticsID": 1012009,
+                "extenderID": 1012011,
+                "conditionals": {
+                    "$id": 3,
+                    "$type": "4|System.Collections.Generic.List`1[[GuidStruct, Assembly-CSharp]], mscorlib",
+                    "$rlength": 31,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3581114326336699272,
+                            "HighBits": -1747357129975256227
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3344461831075149099,
+                            "HighBits": 5465902903069159547
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2991675028297626320,
+                            "HighBits": -6363828573803391108
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3517952194108841679,
+                            "HighBits": 1551186520006600840
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3682919068442114111,
+                            "HighBits": 892273441664889698
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3682919068442114111,
+                            "HighBits": 892273441664889698
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3274217493135794884,
+                            "HighBits": -4557942270429750393
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3470801151404281611,
+                            "HighBits": -2014793793223746200
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2973004598520547858,
+                            "HighBits": -3787781410207724438
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3481962532028618623,
+                            "HighBits": -1438514576322314423
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 4,
+                "$type": 2,
+                "name": "Moon Signal (Apocrypha)",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3119663246671799093,
+                    "HighBits": -7160366735409206691
+                },
+                "aIType": 0,
+                "timeBetweenActions": 5,
+                "spiralRandomRadius": 6,
+                "spiralThreatPositioningRadius": 10,
+                "matterStorageID": 1012024,
+                "energyStorageID": 1012025,
+                "logisticsID": 1012009,
+                "extenderID": 1012011,
+                "conditionals": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 26,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3967226791572850556,
+                            "HighBits": -7905193801929009544
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3581114326336699272,
+                            "HighBits": -1747357129975256227
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3274217493135794884,
+                            "HighBits": -4557942270429750393
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3470801151404281611,
+                            "HighBits": -2014793793223746200
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2973004598520547858,
+                            "HighBits": -3787781410207724438
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3643566595097930347,
+                            "HighBits": -4529860866541692316
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 6,
+                "$type": 2,
+                "name": "Game Theory - Moons Alpha",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3034304132189221549,
+                    "HighBits": -9050714685231344766
+                },
+                "aIType": 0,
+                "timeBetweenActions": 1,
+                "spiralRandomRadius": 6,
+                "spiralThreatPositioningRadius": 10,
+                "matterStorageID": 1012024,
+                "energyStorageID": 1012025,
+                "logisticsID": 1012009,
+                "extenderID": 1012011,
+                "conditionals": {
+                    "$id": 7,
+                    "$type": 4,
+                    "$rlength": 29,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3849746881137319421,
+                            "HighBits": 2601672862330290253
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3823834923656996097,
+                            "HighBits": -6134139621725301884
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2991675028297626320,
+                            "HighBits": -6363828573803391108
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3682919068442114111,
+                            "HighBits": 892273441664889698
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3274217493135794884,
+                            "HighBits": -4557942270429750393
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3470801151404281611,
+                            "HighBits": -2014793793223746200
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2973004598520547858,
+                            "HighBits": -3787781410207724438
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3643566595097930347,
+                            "HighBits": -4529860866541692316
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": 2,
+                "name": "Game Theory - Moons Bravo",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3836500202262264453,
+                    "HighBits": 8089022765050369360
+                },
+                "aIType": 0,
+                "timeBetweenActions": 1,
+                "spiralRandomRadius": 6,
+                "spiralThreatPositioningRadius": 10,
+                "matterStorageID": 1012024,
+                "energyStorageID": 1012025,
+                "logisticsID": 1012009,
+                "extenderID": 1012011,
+                "conditionals": {
+                    "$id": 9,
+                    "$type": 4,
+                    "$rlength": 27,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2991675028297626320,
+                            "HighBits": -6363828573803391108
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3682919068442114111,
+                            "HighBits": 892273441664889698
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3274217493135794884,
+                            "HighBits": -4557942270429750393
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3470801151404281611,
+                            "HighBits": -2014793793223746200
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2973004598520547858,
+                            "HighBits": -3787781410207724438
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3640403233077008192,
+                            "HighBits": -7601736835135639165
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 10,
+                "$type": 2,
+                "name": "Tol Ly Fleetmarshal",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -4022637081726590026,
+                    "HighBits": -8477058070446407837
+                },
+                "aIType": 0,
+                "timeBetweenActions": 0,
+                "spiralRandomRadius": 6,
+                "spiralThreatPositioningRadius": 10,
+                "matterStorageID": 1012024,
+                "energyStorageID": 1012025,
+                "logisticsID": 1012009,
+                "extenderID": 1012011,
+                "conditionals": {
+                    "$id": 11,
+                    "$type": 4,
+                    "$rlength": 28,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3581114326336699272,
+                            "HighBits": -1747357129975256227
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2991675028297626320,
+                            "HighBits": -6363828573803391108
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3682919068442114111,
+                            "HighBits": 892273441664889698
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3682919068442114111,
+                            "HighBits": 892273441664889698
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3274217493135794884,
+                            "HighBits": -4557942270429750393
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3517952194108841679,
+                            "HighBits": 1551186520006600840
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3660359329908398656,
+                            "HighBits": 203125698310469206
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2940808911882255838,
+                            "HighBits": 6869364985235201137
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2973004598520547858,
+                            "HighBits": -3787781410207724438
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3246892470262228615,
+                            "HighBits": -8385729496784247729
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3787416901346735105,
+                            "HighBits": 9055467607202138749
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2916765486391153307,
+                            "HighBits": -5544984650117626266
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3316853162968332374,
+                            "HighBits": 1697301602895785299
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 12,
+                "$type": 2,
+                "name": "Thermal Excavator",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3847245809615849400,
+                    "HighBits": -489729555329690015
+                },
+                "aIType": 0,
+                "timeBetweenActions": 0,
+                "spiralRandomRadius": 8,
+                "spiralThreatPositioningRadius": 5,
+                "matterStorageID": 1012024,
+                "energyStorageID": 1012025,
+                "logisticsID": 1012009,
+                "extenderID": 1012011,
+                "conditionals": {
+                    "$id": 13,
+                    "$type": 4,
+                    "$rlength": 5,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -4040037587622718911,
+                            "HighBits": -6729971795253259952
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3609590586471228351,
+                            "HighBits": 7193490080557632347
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3421584912481356835,
+                            "HighBits": -6321111923849193641
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3325063228586547873,
+                            "HighBits": -5619329645396483717
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3933896021920772883,
+                            "HighBits": 5119765179103009394
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "conditionSwitches": {
+        "$id": 14,
+        "$type": "5|System.Collections.Generic.List`1[[ALO.Entities.AI.CommandAIConditionSwitch, Assembly-CSharp]], mscorlib",
+        "$rlength": 26,
+        "$rcontent": [
+            {
+                "$id": 15,
+                "$type": "6|ALO.Entities.AI.CommandAIConditionSwitch, Assembly-CSharp",
+                "name": "+0.5m",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3849746881137319421,
+                    "HighBits": 2601672862330290253
+                },
+                "uses": {
+                    "$type": "7|Unity.Mathematics.int2, Unity.Mathematics",
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": "8|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": -4.5,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 16,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3632002768501640189,
+                            "HighBits": 2199807172301798239
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 17,
+                "$type": 6,
+                "name": "+0.25e",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3823834923656996097,
+                    "HighBits": -6134139621725301884
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": -1.5,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 18,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3940246181992973758,
+                            "HighBits": -2699604833365102977
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 19,
+                "$type": 6,
+                "name": "Setup - Standard",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3581114326336699272,
+                    "HighBits": -1747357129975256227
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 20,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3240154433117075749,
+                            "HighBits": 8421946470342029937
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 21,
+                "$type": 6,
+                "name": "Early - Attack Light / Medium",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3660359329908398656,
+                    "HighBits": 203125698310469206
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 22,
+                    "$type": 4,
+                    "$rlength": 6,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3863451983795913113,
+                            "HighBits": -3441930700997551234
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3960145466228103314,
+                            "HighBits": -7776685969541128576
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3370785083513962485,
+                            "HighBits": 487332937172099441
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3131936523430609531,
+                            "HighBits": 7145144018971120220
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3529913046569282870,
+                            "HighBits": 8136419666460667736
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -4023570681637622948,
+                            "HighBits": -3573592441915073437
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 23,
+                "$type": 6,
+                "name": "Early - Eco M E",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2991675028297626320,
+                    "HighBits": -6363828573803391108
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 24,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3240154433117075749,
+                            "HighBits": 8421946470342029937
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 25,
+                "$type": 6,
+                "name": "Mid - Eco M",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3682919068442114111,
+                    "HighBits": 892273441664889698
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 26,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3090757029276845502,
+                            "HighBits": -7333471458795335834
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 27,
+                "$type": 6,
+                "name": "Mid - Attack Heavy",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2940808911882255838,
+                    "HighBits": 6869364985235201137
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 28,
+                    "$type": 4,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3659192405979775078,
+                            "HighBits": -2818921836306558075
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3447135552183444169,
+                            "HighBits": 8831089757751459972
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 29,
+                "$type": 6,
+                "name": "Late - Capital Support",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2973004598520547858,
+                    "HighBits": -3787781410207724438
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 30,
+                    "$type": 4,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -2988540255932495141,
+                            "HighBits": 1582130113118420056
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3434119462679592506,
+                            "HighBits": -8688081590352449440
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -2968751743343022044,
+                            "HighBits": -7894983690221868692
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3967037491351395215,
+                            "HighBits": 8891156815305115505
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 31,
+                "$type": 6,
+                "name": "Late - Artillery Mixed",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3787416901346735105,
+                    "HighBits": 9055467607202138749
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 32,
+                    "$type": 4,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3544822563421929246,
+                            "HighBits": 7618611259769562200
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3761053576254417357,
+                            "HighBits": -3431239852291316913
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 33,
+                "$type": 6,
+                "name": "Late - Assault",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3246892470262228615,
+                    "HighBits": -8385729496784247729
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 34,
+                    "$type": 4,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3752758812901165715,
+                            "HighBits": -4788756130648996279
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3277017049706738217,
+                            "HighBits": -1617112413239600804
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 35,
+                "$type": 6,
+                "name": "Finisher - Gregor And Anvil",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3643566595097930347,
+                    "HighBits": -4529860866541692316
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 36,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3027784368827478994,
+                            "HighBits": -4825545817743484540
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 37,
+                "$type": 6,
+                "name": "Late - Eco Minimum",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3551385433307592921,
+                    "HighBits": 2500664665370237776
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": -10,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": -6,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 38,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3634548487309222749,
+                            "HighBits": -690866090917177233
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 39,
+                "$type": 6,
+                "name": "Late - Eco M E",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3470801151404281611,
+                    "HighBits": -2014793793223746200
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 40,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3634548487309222749,
+                            "HighBits": -690866090917177233
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 41,
+                "$type": 6,
+                "name": "Late - Defence",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2916765486391153307,
+                    "HighBits": -5544984650117626266
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 42,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3549427874957461135,
+                            "HighBits": 2659765662208400476
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 43,
+                "$type": 6,
+                "name": "* Logistics Minimum - Logic Center",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3274217493135794884,
+                    "HighBits": -4557942270429750393
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": -20,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 44,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3108575026553130231,
+                            "HighBits": 896966042727480661
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 45,
+                "$type": 6,
+                "name": "Finisher - Dusk Of Jousting Rays",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3640403233077008192,
+                    "HighBits": -7601736835135639165
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 46,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3621781764671025880,
+                            "HighBits": -3255138213070554030
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 47,
+                "$type": 6,
+                "name": "* Matter +0.5",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3967226791572850556,
+                    "HighBits": -7905193801929009544
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": -4,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 48,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3632002768501640189,
+                            "HighBits": 2199807172301798239
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 49,
+                "$type": 6,
+                "name": "Finisher - Any",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3481962532028618623,
+                    "HighBits": -1438514576322314423
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 50,
+                    "$type": 4,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3027784368827478994,
+                            "HighBits": -4825545817743484540
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3621781764671025880,
+                            "HighBits": -3255138213070554030
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3082319277630556338,
+                            "HighBits": 8918641820977758584
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 51,
+                "$type": 6,
+                "name": "Early - Defence",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3344461831075149099,
+                    "HighBits": 5465902903069159547
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 52,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -2982421670344125526,
+                            "HighBits": -8147882841827975062
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 53,
+                "$type": 6,
+                "name": "Mid - Defence",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3517952194108841679,
+                    "HighBits": 1551186520006600840
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 54,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3696490555078414735,
+                            "HighBits": -1707522454649793934
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 55,
+                "$type": 6,
+                "name": "Finisher - Sufficient Tolly Production",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3316853162968332374,
+                    "HighBits": 1697301602895785299
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 56,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3082319277630556338,
+                            "HighBits": 8918641820977758584
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 57,
+                "$type": 6,
+                "name": "TE Establishment",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -4040037587622718911,
+                    "HighBits": -6729971795253259952
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 2,
+                    "y": 4
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 58,
+                    "$type": 4,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3178801246245414351,
+                            "HighBits": -8265439841586020529
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3633821210568974933,
+                            "HighBits": -505517746045307770
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 59,
+                "$type": 6,
+                "name": "TE Stabilization",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3609590586471228351,
+                    "HighBits": 7193490080557632347
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": 1,
+                    "y": 3
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 60,
+                    "$type": 4,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3510567243542106160,
+                            "HighBits": 8858684472170375022
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3455183867129036761,
+                            "HighBits": -3050239435010227836
+                        },
+                        {
+                            "$type": 3,
+                            "LowBits": -3474010988335245588,
+                            "HighBits": 5188029842170122323
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 61,
+                "$type": 6,
+                "name": "TE Expansion",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3933896021920772883,
+                    "HighBits": 5119765179103009394
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 62,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3083651483880734811,
+                            "HighBits": -3589772415816454780
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 63,
+                "$type": 6,
+                "name": "TE Infrastructure First Degree",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3325063228586547873,
+                    "HighBits": -5619329645396483717
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": -40,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 64,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3355542211837023252,
+                            "HighBits": -9170231210239717515
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 65,
+                "$type": 6,
+                "name": "TE Economy First Degree",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3421584912481356835,
+                    "HighBits": -6321111923849193641
+                },
+                "uses": {
+                    "$type": 7,
+                    "x": -1,
+                    "y": 0
+                },
+                "secondsElapsed": {
+                    "$type": 8,
+                    "x": 0,
+                    "y": 0
+                },
+                "mEco": {
+                    "$type": 8,
+                    "x": -13,
+                    "y": 0
+                },
+                "eEco": {
+                    "$type": 8,
+                    "x": -9,
+                    "y": 0
+                },
+                "sEco": {
+                    "$type": 7,
+                    "x": 0,
+                    "y": 0
+                },
+                "loopChoices": {
+                    "$id": 66,
+                    "$type": 4,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$type": 3,
+                            "LowBits": -3691784973873446999,
+                            "HighBits": -2801807706082868601
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "buildLoops": {
+        "$id": 67,
+        "$type": "9|System.Collections.Generic.List`1[[ALO.Entities.AI.CommandAIBuildLoop, Assembly-CSharp]], mscorlib",
+        "$rlength": 38,
+        "$rcontent": [
+            {
+                "$id": 68,
+                "$type": "10|ALO.Entities.AI.CommandAIBuildLoop, Assembly-CSharp",
+                "name": "Eco +2m +0.5e",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3240154433117075749,
+                    "HighBits": 8421946470342029937
+                },
+                "loopItems": {
+                    "$id": 69,
+                    "$type": "11|System.Collections.Generic.List`1[[ALO.Entities.AI.CommandAIStructureSwitch, Assembly-CSharp]], mscorlib",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 70,
+                            "$type": "12|ALO.Entities.AI.CommandAIStructureSwitch, Assembly-CSharp",
+                            "type": 1,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 71,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 72,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012002,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 73,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012028,
+                            "spawnID": 1011000,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 74,
+                "$type": 10,
+                "name": "Build Coheser",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3632002768501640189,
+                    "HighBits": 2199807172301798239
+                },
+                "loopItems": {
+                    "$id": 75,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 76,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 77,
+                "$type": 10,
+                "name": "Build Reactor",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3940246181992973758,
+                    "HighBits": -2699604833365102977
+                },
+                "loopItems": {
+                    "$id": 78,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 79,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 80,
+                "$type": 10,
+                "name": "Light 5T 4F 2K",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3863451983795913113,
+                    "HighBits": -3441930700997551234
+                },
+                "loopItems": {
+                    "$id": 81,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 82,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011000,
+                            "count": 5
+                        },
+                        {
+                            "$id": 83,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 3
+                        },
+                        {
+                            "$id": 84,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 85,
+                "$type": 10,
+                "name": "Medium 2O 1R Light 2K",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3131936523430609531,
+                    "HighBits": 7145144018971120220
+                },
+                "loopItems": {
+                    "$id": 86,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 87,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011005,
+                            "count": 2
+                        },
+                        {
+                            "$id": 88,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 1
+                        },
+                        {
+                            "$id": 89,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 90,
+                "$type": 10,
+                "name": "Light 4H 3D 2F",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3960145466228103314,
+                    "HighBits": -7776685969541128576
+                },
+                "loopItems": {
+                    "$id": 91,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 92,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011017,
+                            "count": 4
+                        },
+                        {
+                            "$id": 93,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011007,
+                            "count": 3
+                        },
+                        {
+                            "$id": 94,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 95,
+                "$type": 10,
+                "name": "Medium P2 R1 Light 2K",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3529913046569282870,
+                    "HighBits": 8136419666460667736
+                },
+                "loopItems": {
+                    "$id": 96,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 97,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011012,
+                            "count": 2
+                        },
+                        {
+                            "$id": 98,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011023,
+                            "count": 1
+                        },
+                        {
+                            "$id": 99,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 100,
+                "$type": 10,
+                "name": "Medium O1 L2 Light 2K",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -4023570681637622948,
+                    "HighBits": -3573592441915073437
+                },
+                "loopItems": {
+                    "$id": 101,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 102,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011005,
+                            "count": 1
+                        },
+                        {
+                            "$id": 103,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 2
+                        },
+                        {
+                            "$id": 104,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 105,
+                "$type": 10,
+                "name": "Light T8 K2 D2",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3370785083513962485,
+                    "HighBits": 487332937172099441
+                },
+                "loopItems": {
+                    "$id": 106,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 107,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011000,
+                            "count": 8
+                        },
+                        {
+                            "$id": 108,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 2
+                        },
+                        {
+                            "$id": 109,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011007,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 110,
+                "$type": 10,
+                "name": "Heavy A1 Medium M1",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3659192405979775078,
+                    "HighBits": -2818921836306558075
+                },
+                "loopItems": {
+                    "$id": 111,
+                    "$type": 11,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 112,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011013,
+                            "count": 1
+                        },
+                        {
+                            "$id": 113,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011014,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 114,
+                "$type": 10,
+                "name": "Heavy B1 Medium M1",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3447135552183444169,
+                    "HighBits": 8831089757751459972
+                },
+                "loopItems": {
+                    "$id": 115,
+                    "$type": 11,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 116,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011013,
+                            "count": 1
+                        },
+                        {
+                            "$id": 117,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011011,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 118,
+                "$type": 10,
+                "name": "Cohesion Facility",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3941138824432741776,
+                    "HighBits": 8289872929757777263
+                },
+                "loopItems": {
+                    "$id": 119,
+                    "$type": 11,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 120,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 5
+                        },
+                        {
+                            "$id": 121,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012027,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 122,
+                "$type": 10,
+                "name": "Graviton",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3154104259882966767,
+                    "HighBits": -4286979626708268417
+                },
+                "loopItems": {
+                    "$id": 123,
+                    "$type": 11,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 124,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 125,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012004,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 126,
+                "$type": 10,
+                "name": "Eco +5m +4e",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3634548487309222749,
+                    "HighBits": -690866090917177233
+                },
+                "loopItems": {
+                    "$id": 127,
+                    "$type": 11,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 128,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012024,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 129,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012025,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 130,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012004,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 131,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012027,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 132,
+                "$type": 10,
+                "name": "Eco Mining",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3090757029276845502,
+                    "HighBits": -7333471458795335834
+                },
+                "loopItems": {
+                    "$id": 133,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 134,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012040,
+                            "spawnID": 1011019,
+                            "count": 2
+                        },
+                        {
+                            "$id": 135,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 136,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 6
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 137,
+                "$type": 10,
+                "name": "Capital T1",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2988540255932495141,
+                    "HighBits": 1582130113118420056
+                },
+                "loopItems": {
+                    "$id": 138,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 139,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011020,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 140,
+                "$type": 10,
+                "name": "Capital S1",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3434119462679592506,
+                    "HighBits": -8688081590352449440
+                },
+                "loopItems": {
+                    "$id": 141,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 142,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011010,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 143,
+                "$type": 10,
+                "name": "Capital Y1",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2968751743343022044,
+                    "HighBits": -7894983690221868692
+                },
+                "loopItems": {
+                    "$id": 144,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 145,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011027,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 146,
+                "$type": 10,
+                "name": "Heavy K1 Medium R2",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3544822563421929246,
+                    "HighBits": 7618611259769562200
+                },
+                "loopItems": {
+                    "$id": 147,
+                    "$type": 11,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 148,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011001,
+                            "count": 1
+                        },
+                        {
+                            "$id": 149,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 150,
+                "$type": 10,
+                "name": "Heavy G1 Medium O2",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3761053576254417357,
+                    "HighBits": -3431239852291316913
+                },
+                "loopItems": {
+                    "$id": 151,
+                    "$type": 11,
+                    "$rlength": 2,
+                    "$rcontent": [
+                        {
+                            "$id": 152,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011009,
+                            "count": 1
+                        },
+                        {
+                            "$id": 153,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011012,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 154,
+                "$type": 10,
+                "name": "Light H8 F16 K8",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3752758812901165715,
+                    "HighBits": -4788756130648996279
+                },
+                "loopItems": {
+                    "$id": 155,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 156,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011017,
+                            "count": 8
+                        },
+                        {
+                            "$id": 157,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 16
+                        },
+                        {
+                            "$id": 158,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 8
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 159,
+                "$type": 10,
+                "name": "Medium O4 R4 A2 L4",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3277017049706738217,
+                    "HighBits": -1617112413239600804
+                },
+                "loopItems": {
+                    "$id": 160,
+                    "$type": 11,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 161,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011005,
+                            "count": 4
+                        },
+                        {
+                            "$id": 162,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011023,
+                            "count": 2
+                        },
+                        {
+                            "$id": 163,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 2
+                        },
+                        {
+                            "$id": 164,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 4
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 165,
+                "$type": 10,
+                "name": "Finisher - Gregor And Anvil",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3027784368827478994,
+                    "HighBits": -4825545817743484540
+                },
+                "loopItems": {
+                    "$id": 166,
+                    "$type": 11,
+                    "$rlength": 17,
+                    "$rcontent": [
+                        {
+                            "$id": 167,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011007,
+                            "count": 8
+                        },
+                        {
+                            "$id": 168,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 16
+                        },
+                        {
+                            "$id": 169,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 16
+                        },
+                        {
+                            "$id": 170,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011005,
+                            "count": 6
+                        },
+                        {
+                            "$id": 171,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 6
+                        },
+                        {
+                            "$id": 172,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 4
+                        },
+                        {
+                            "$id": 173,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011011,
+                            "count": 2
+                        },
+                        {
+                            "$id": 174,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011009,
+                            "count": 2
+                        },
+                        {
+                            "$id": 175,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011025,
+                            "count": 2
+                        },
+                        {
+                            "$id": 176,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012024,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 177,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012025,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 178,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 179,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012008,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 180,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011027,
+                            "count": 1
+                        },
+                        {
+                            "$id": 181,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011004,
+                            "count": 1
+                        },
+                        {
+                            "$id": 182,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012004,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 183,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012027,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 184,
+                "$type": 10,
+                "name": "Defence T2",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3549427874957461135,
+                    "HighBits": 2659765662208400476
+                },
+                "loopItems": {
+                    "$id": 185,
+                    "$type": 11,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 186,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012028,
+                            "spawnID": 1011000,
+                            "count": 8
+                        },
+                        {
+                            "$id": 187,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 188,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012008,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 189,
+                            "$type": 12,
+                            "type": 0,
+                            "typeID": 1012039,
+                            "spawnID": 1011000,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 190,
+                "$type": 10,
+                "name": "Build Logic Center",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3108575026553130231,
+                    "HighBits": 896966042727480661
+                },
+                "loopItems": {
+                    "$id": 191,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 192,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012037,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 193,
+                "$type": 10,
+                "name": "Finisher - Thundersong",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3621781764671025880,
+                    "HighBits": -3255138213070554030
+                },
+                "loopItems": {
+                    "$id": 194,
+                    "$type": 11,
+                    "$rlength": 17,
+                    "$rcontent": [
+                        {
+                            "$id": 195,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011007,
+                            "count": 8
+                        },
+                        {
+                            "$id": 196,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 16
+                        },
+                        {
+                            "$id": 197,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 16
+                        },
+                        {
+                            "$id": 198,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011005,
+                            "count": 6
+                        },
+                        {
+                            "$id": 199,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 6
+                        },
+                        {
+                            "$id": 200,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 4
+                        },
+                        {
+                            "$id": 201,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011011,
+                            "count": 2
+                        },
+                        {
+                            "$id": 202,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011009,
+                            "count": 2
+                        },
+                        {
+                            "$id": 203,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011025,
+                            "count": 2
+                        },
+                        {
+                            "$id": 204,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012024,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 205,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012025,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 206,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 207,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012008,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 208,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011004,
+                            "count": 1
+                        },
+                        {
+                            "$id": 209,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011015,
+                            "count": 1
+                        },
+                        {
+                            "$id": 210,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012004,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 211,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012027,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 212,
+                "$type": 10,
+                "name": "Capital E1",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3967037491351395215,
+                    "HighBits": 8891156815305115505
+                },
+                "loopItems": {
+                    "$id": 213,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 214,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011004,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 215,
+                "$type": 10,
+                "name": "Finisher - Sufficient Tolly Production",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3082319277630556338,
+                    "HighBits": 8918641820977758584
+                },
+                "loopItems": {
+                    "$id": 216,
+                    "$type": 11,
+                    "$rlength": 10,
+                    "$rcontent": [
+                        {
+                            "$id": 217,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011017,
+                            "count": 32
+                        },
+                        {
+                            "$id": 218,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011007,
+                            "count": 32
+                        },
+                        {
+                            "$id": 219,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011000,
+                            "count": 32
+                        },
+                        {
+                            "$id": 220,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011010,
+                            "count": 1
+                        },
+                        {
+                            "$id": 221,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 32
+                        },
+                        {
+                            "$id": 222,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011000,
+                            "count": 32
+                        },
+                        {
+                            "$id": 223,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011021,
+                            "count": 32
+                        },
+                        {
+                            "$id": 224,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011015,
+                            "count": 1
+                        },
+                        {
+                            "$id": 225,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 32
+                        },
+                        {
+                            "$id": 226,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011000,
+                            "count": 32
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 227,
+                "$type": 10,
+                "name": "Defence - 4S 1R 3W",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -2982421670344125526,
+                    "HighBits": -8147882841827975062
+                },
+                "loopItems": {
+                    "$id": 228,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 229,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012002,
+                            "spawnID": 1011000,
+                            "count": 5
+                        },
+                        {
+                            "$id": 230,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012028,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 231,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012018,
+                            "spawnID": 1011000,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 232,
+                "$type": 10,
+                "name": "Defence - 4S 1P 4R 1B",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3696490555078414735,
+                    "HighBits": -1707522454649793934
+                },
+                "loopItems": {
+                    "$id": 233,
+                    "$type": 11,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 234,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012002,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 235,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012008,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 236,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012018,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 237,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 238,
+                "$type": 10,
+                "name": "TE Establishment Light",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3178801246245414351,
+                    "HighBits": -8265439841586020529
+                },
+                "loopItems": {
+                    "$id": 239,
+                    "$type": 11,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 240,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 3
+                        },
+                        {
+                            "$id": 241,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 5
+                        },
+                        {
+                            "$id": 242,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012040,
+                            "spawnID": 1011019,
+                            "count": 1
+                        },
+                        {
+                            "$id": 243,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 244,
+                "$type": 10,
+                "name": "TE Establishment Medium",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3633821210568974933,
+                    "HighBits": -505517746045307770
+                },
+                "loopItems": {
+                    "$id": 245,
+                    "$type": 11,
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 246,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 3
+                        },
+                        {
+                            "$id": 247,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012040,
+                            "spawnID": 1011019,
+                            "count": 1
+                        },
+                        {
+                            "$id": 248,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 1
+                        },
+                        {
+                            "$id": 249,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 250,
+                "$type": 10,
+                "name": "TE Stabilization Economy",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3510567243542106160,
+                    "HighBits": 8858684472170375022
+                },
+                "loopItems": {
+                    "$id": 251,
+                    "$type": 11,
+                    "$rlength": 12,
+                    "$rcontent": [
+                        {
+                            "$id": 252,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012028,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 253,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 2
+                        },
+                        {
+                            "$id": 254,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011013,
+                            "count": 1
+                        },
+                        {
+                            "$id": 255,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012028,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 256,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012040,
+                            "spawnID": 1011019,
+                            "count": 2
+                        },
+                        {
+                            "$id": 257,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 258,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012044,
+                            "spawnID": 1011014,
+                            "count": 1
+                        },
+                        {
+                            "$id": 259,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012039,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 260,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 261,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 1
+                        },
+                        {
+                            "$id": 262,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012027,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 263,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012004,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 264,
+                "$type": 10,
+                "name": "TE Stabilization Offense",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3455183867129036761,
+                    "HighBits": -3050239435010227836
+                },
+                "loopItems": {
+                    "$id": 265,
+                    "$type": 11,
+                    "$rlength": 9,
+                    "$rcontent": [
+                        {
+                            "$id": 266,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012002,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 267,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 1
+                        },
+                        {
+                            "$id": 268,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011013,
+                            "count": 1
+                        },
+                        {
+                            "$id": 269,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 3
+                        },
+                        {
+                            "$id": 270,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 3
+                        },
+                        {
+                            "$id": 271,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 2
+                        },
+                        {
+                            "$id": 272,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 6
+                        },
+                        {
+                            "$id": 273,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011001,
+                            "count": 2
+                        },
+                        {
+                            "$id": 274,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011028,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 275,
+                "$type": 10,
+                "name": "TE Stabilization Pressure",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3474010988335245588,
+                    "HighBits": 5188029842170122323
+                },
+                "loopItems": {
+                    "$id": 276,
+                    "$type": 11,
+                    "$rlength": 11,
+                    "$rcontent": [
+                        {
+                            "$id": 277,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012039,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 278,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011013,
+                            "count": 2
+                        },
+                        {
+                            "$id": 279,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 3
+                        },
+                        {
+                            "$id": 280,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 281,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 282,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012040,
+                            "spawnID": 1011019,
+                            "count": 1
+                        },
+                        {
+                            "$id": 283,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 9
+                        },
+                        {
+                            "$id": 284,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011002,
+                            "count": 3
+                        },
+                        {
+                            "$id": 285,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011025,
+                            "count": 2
+                        },
+                        {
+                            "$id": 286,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011028,
+                            "count": 1
+                        },
+                        {
+                            "$id": 287,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 9
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 288,
+                "$type": 10,
+                "name": "TE Expansion Military",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3083651483880734811,
+                    "HighBits": -3589772415816454780
+                },
+                "loopItems": {
+                    "$id": 289,
+                    "$type": 11,
+                    "$rlength": 17,
+                    "$rcontent": [
+                        {
+                            "$id": 290,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012008,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 291,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012039,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 292,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 293,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 294,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012029,
+                            "spawnID": 1011000,
+                            "count": 4
+                        },
+                        {
+                            "$id": 295,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011001,
+                            "count": 2
+                        },
+                        {
+                            "$id": 296,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012044,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 297,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012001,
+                            "spawnID": 1011006,
+                            "count": 12
+                        },
+                        {
+                            "$id": 298,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011025,
+                            "count": 1
+                        },
+                        {
+                            "$id": 299,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012003,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 300,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012033,
+                            "spawnID": 1011000,
+                            "count": 2
+                        },
+                        {
+                            "$id": 301,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012019,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 302,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011013,
+                            "count": 1
+                        },
+                        {
+                            "$id": 303,
+                            "$type": 12,
+                            "type": 3,
+                            "typeID": 1012026,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 304,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012006,
+                            "spawnID": 1011024,
+                            "count": 2
+                        },
+                        {
+                            "$id": 305,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012005,
+                            "spawnID": 1011028,
+                            "count": 1
+                        },
+                        {
+                            "$id": 306,
+                            "$type": 12,
+                            "type": 2,
+                            "typeID": 1012010,
+                            "spawnID": 1011027,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 307,
+                "$type": 10,
+                "name": "TE Infrastructure First Degree",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3355542211837023252,
+                    "HighBits": -9170231210239717515
+                },
+                "loopItems": {
+                    "$id": 308,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 309,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012037,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 310,
+                "$type": 10,
+                "name": "TE Economy First Degree",
+                "guid": {
+                    "$type": 3,
+                    "LowBits": -3691784973873446999,
+                    "HighBits": -2801807706082868601
+                },
+                "loopItems": {
+                    "$id": 311,
+                    "$type": 11,
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 312,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012027,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 313,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012004,
+                            "spawnID": 1011000,
+                            "count": 1
+                        },
+                        {
+                            "$id": 314,
+                            "$type": 12,
+                            "type": 1,
+                            "typeID": 1012007,
+                            "spawnID": 1011000,
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "dateLastModified": "2026/03/31/09-10-45"
+}

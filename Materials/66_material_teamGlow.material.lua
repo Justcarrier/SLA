@@ -1,0 +1,20 @@
+﻿return {
+    id = "666_material_teamGlow",
+    shader = "Shader Graphs/Ship Glow Shader",
+    properties = {
+        _CloakOpacity = 1,
+        _Color = { 0.078, 0.064235, 0.059647, 1 },
+        _DamageEnd = 0,
+        _DamageStart = 0.8,
+        _Dead = 0,
+        _DitherScale = 1,
+        _EmissionColor = { 2, 1.035294, 0.12549, 1 },
+        _Intensity = 1,
+        _Metallic = 0.7,
+        _Min = 0.5,
+        _QueueControl = 0,
+        _QueueOffset = 0,
+        _Smoothness = 0.5,
+        Damage = 0,
+    },
+}

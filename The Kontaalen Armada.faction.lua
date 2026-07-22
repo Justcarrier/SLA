@@ -1,0 +1,18 @@
+﻿return {
+    factionName = "The Spance Liberation Army",
+    factionNameShorthand = "SLA",
+    description = "TBD.",
+    emblem = "SLA icon",
+    id = 666,
+    skirmish = true,
+    hiddenInDatabank = false,
+    hiddenInEditor = false,
+    requiredMissionCompleteForUnlock = "",
+    skirmish_loadout = { 6661001, 6661002 },
+    skirmish_platforms = { 6661001 },
+    skirmish_ais = { },
+    ships = { 6661001, 6661002, 6661003, 6661004, 6661005, 6661006,6661007,6661008,666109 },
+    structures = { 6662000 },
+    misc = { 6661001 },
+    environmental = { 6661001 },
+}
